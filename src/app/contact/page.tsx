@@ -108,7 +108,7 @@ export default function ContactPage() {
                 </CardHeader>
                 <CardContent className="flex space-x-6">
                     <Link href="https://www.linkedin.com/in/atharv-patil-bab53a284" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" className="text-muted-foreground hover:text-primary"><Linkedin className="h-7 w-7" /></Link>
-                    <Link href="https://github.com/JonaDmello5/FinanceForward" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" className="text-muted-foreground hover:text-primary"><Github className="h-7 w-7" /></Link>
+                    <Link href="https://github.com/Atharv279/fitnessforward" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" className="text-muted-foreground hover:text-primary"><Github className="h-7 w-7" /></Link>
                 </CardContent>
             </Card>
         </div>
