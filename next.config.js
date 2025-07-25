@@ -1,7 +1,7 @@
-import type {NextConfig} from 'next';
+// Converted from next.config.ts for Vercel compatibility
 
-const nextConfig: NextConfig = {
-  /* config options here */
+const nextConfig = {
+  // config options here
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -20,4 +20,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+module.exports = nextConfig; 
