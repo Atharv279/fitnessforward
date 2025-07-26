@@ -13,10 +13,10 @@ import { AdPlaceholder } from "@/components/ad-placeholder";
 
 const navItems = [
   { href: "/", label: "Home", icon: <TrendingUp className="h-5 w-5" /> },
-  { href: "/bmi-calculator", label: "bmi Calculator", icon: <Landmark className="h-5 w-5" /> },
-  { href: "/training-calculator", label: "training Calculator", icon: <Briefcase className="h-5 w-5" /> },
-  { href: "/calorie-planner", label: "calorie Planning", icon: <Users className="h-5 w-5" /> },
-  { href: "/fitness-tracker", label: "fitness Tracker", icon: <Bitcoin className="h-5 w-5" /> },
+  { href: "/bmi-calculator", label: "BMI Calculator", icon: <Landmark className="h-5 w-5" /> },
+  { href: "/training-calculator", label: "Training Calculator", icon: <Briefcase className="h-5 w-5" /> },
+  { href: "/calorie-planner", label: "Calorie Planning", icon: <Users className="h-5 w-5" /> },
+  { href: "/fitness-tracker", label: "Fitness Tracker", icon: <Bitcoin className="h-5 w-5" /> },
   { href: "/about", label: "About Us", icon: <Info className="h-5 w-5" /> },
   { href: "/contact", label: "Contact Us", icon: <Phone className="h-5 w-5" /> },
 ];

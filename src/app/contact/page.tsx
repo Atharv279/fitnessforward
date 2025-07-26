@@ -42,10 +42,10 @@ export default function ContactPage() {
     <div className="container mx-auto py-8 px-4 md:px-6">
       <header className="text-center mb-12">
         <h1 className="text-4xl font-bold tracking-tight sm:text-5xl font-headline text-primary">
-          Get in Touch
+          Connect With Our Fitness Team
         </h1>
         <p className="mt-4 text-xl text-foreground/80 max-w-3xl mx-auto text-balance">
-          We&apos;d love to hear from you! Your feedback is vital for improving FinanceForward. Whether you have a question, a feature suggestion, or a partnership inquiry, please don&apos;t hesitate to reach out.
+          Have questions about our workout plans or nutrition guides? Want to suggest a feature or report an issue? Our team at FitnessForword values your input and is here to help with your fitness journey.
         </p>
       </header>
 
@@ -54,8 +54,8 @@ export default function ContactPage() {
       <div className="grid md:grid-cols-2 gap-12 items-start">
         <Card className="shadow-lg">
           <CardHeader>
-            <CardTitle className="text-2xl font-headline text-primary">Send us a Message</CardTitle>
-            <CardDescription>Fill out the form below. We do our best to respond to all inquiries within 2 business days.</CardDescription>
+            <CardTitle className="text-2xl font-headline text-primary">Fitness Inquiry Form</CardTitle>
+            <CardDescription>Share your questions about workouts, nutrition, or account support. We typically respond within 24-48 hours.</CardDescription>
           </CardHeader>
           <CardContent>
             <form onSubmit={handleFormSubmit} className="space-y-6">
@@ -73,7 +73,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <Label htmlFor="message" className="block text-sm font-medium text-foreground">Your Message</Label>
-                <Textarea name="message" id="message" rows={4} required className="mt-1" placeholder="Let us know how we can help..." value={message} onChange={(e) => setMessage(e.target.value)} />
+                <Textarea name="message" id="message" rows={4} required className="mt-1" placeholder="Tell us about your fitness goals or questions..." value={message} onChange={(e) => setMessage(e.target.value)} />
               </div>
               <div>
                 <Button type="submit" className="w-full bg-accent hover:bg-accent/90 text-accent-foreground">
@@ -87,8 +87,8 @@ export default function ContactPage() {
         <div className="space-y-8">
             <Card className="shadow-lg">
                 <CardHeader>
-                    <CardTitle className="text-2xl font-headline text-primary">Contact Information</CardTitle>
-                     <CardDescription>For direct inquiries, please use the email address below.</CardDescription>
+                    <CardTitle className="text-2xl font-headline text-primary">Direct Support</CardTitle>
+                     <CardDescription>For personalized training advice or technical support.</CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-4">
                     <div className="flex items-center gap-3">
@@ -96,15 +96,15 @@ export default function ContactPage() {
                         <a href="mailto:atharvpatil269@gmail.com" className="text-foreground/90 hover:text-primary">atharvpatil269@gmail.com</a>
                     </div>
                      <p className="text-sm text-muted-foreground">
-                        Ideal for general questions, support requests, and business-related communication.
+                        Best for workout program questions, account issues, and partnership opportunities.
                     </p>
                 </CardContent>
             </Card>
 
             <Card className="shadow-lg">
                 <CardHeader>
-                    <CardTitle className="text-2xl font-headline text-primary">Connect With Us</CardTitle>
-                     <CardDescription>Follow our journey and connect with our team on social media.</CardDescription>
+                    <CardTitle className="text-2xl font-headline text-primary">Fitness Community</CardTitle>
+                     <CardDescription>Join our growing network of fitness enthusiasts.</CardDescription>
                 </CardHeader>
                 <CardContent className="flex space-x-6">
                     <Link href="https://www.linkedin.com/in/atharv-patil-bab53a284" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" className="text-muted-foreground hover:text-primary"><Linkedin className="h-7 w-7" /></Link>

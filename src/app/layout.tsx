@@ -6,11 +6,18 @@ import { Footer } from '@/components/layout/footer';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'FinanceForward',
-  description: 'Your comprehensive fitness planning and cryptocurrency toolkit.',
+  title: 'FitnessForword - Your Personal Fitness Companion',
+  description: 'Transform your fitness journey with personalized workout plans, nutrition guidance, and progress tracking tools.',
   icons: {
-    icon: '/favicon.ico', // Assuming a favicon might be added later
+    icon: '/favicon.ico',
   },
+  keywords: [
+    'fitness tracker',
+    'workout plans',
+    'nutrition guide',
+    'exercise routines',
+    'health and wellness'
+  ]
 };
 
 export default function RootLayout({
@@ -31,6 +38,7 @@ export default function RootLayout({
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9370081174240595"
           crossOrigin="anonymous"
         />
+        <meta name="theme-color" content="#ffffff" />
       </head>
       <body className="font-body antialiased flex flex-col min-h-screen">
         <Navbar />

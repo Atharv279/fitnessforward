@@ -29,7 +29,7 @@ export function Footer() {
             Email
           </Link>
         </div>
-        <p>&copy; {currentYear} FinanceForward. All rights reserved.</p>
+        <p>&copy; {currentYear} FitnessForward. All rights reserved.</p>
         <p className="mt-1">Empowering your fitness future, one calculation at a time.</p>
       </div>
     </footer>

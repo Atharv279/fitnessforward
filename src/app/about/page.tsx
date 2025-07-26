@@ -10,9 +10,9 @@ export default function AboutPage() {
 
   useEffect(() => {
     const input: AboutUsContentInput = {
-      missionStatementKeywords: 'fitness planning, ease of use, traditional Fitness, cryptocurrency',
-      calculationExplanationsRequest: 'Explain the logic of the fitness calculations.',
-      geminiApiUsageDetailsRequest: 'Describe how the Gemini API is used for cryptocurrency data.'
+      missionStatementKeywords: 'fitness tracking, workout planning, nutrition guidance, health metrics',
+      calculationExplanationsRequest: 'Explain how our fitness calculations and metrics work.',
+      apiUsageDetailsRequest: 'Describe how we process health data and provide recommendations.'
     };
     generateAboutUsContent(input)
       .then(setContent)
@@ -25,23 +25,23 @@ export default function AboutPage() {
 
   return (
     <div className="flex flex-col items-center w-full space-y-6 p-8">
-      <h1 className="text-3xl font-bold mb-4">About Us</h1>
+      <h1 className="text-3xl font-bold mb-4">About FitnessForword</h1>
       {content && (
         <div className="max-w-2xl w-full space-y-6">
           <section>
-            <h2 className="text-xl font-semibold mb-2">Mission Statement</h2>
+            <h2 className="text-xl font-semibold mb-2">Our Fitness Mission</h2>
             <p>{content.missionStatement}</p>
           </section>
           <section>
-            <h2 className="text-xl font-semibold mb-2">How Our Calculations Work</h2>
+            <h2 className="text-xl font-semibold mb-2">How We Calculate Your Fitness Metrics</h2>
             <p>{content.calculationExplanations}</p>
           </section>
           <section>
-            <h2 className="text-xl font-semibold mb-2">Gemini API Usage</h2>
-            <p>{content.geminiApiUsageDetails}</p>
+            <h2 className="text-xl font-semibold mb-2">Our Data Approach</h2>
+            <p>{content.apiUsageDetails}</p>
           </section>
         </div>
       )}
     </div>
   );
-} 
+}
