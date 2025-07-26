@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { generateAboutUsContent, AboutUsContentInput } from '@/ai/flows/finance-forward-about-us-page';
+import { generateAboutUsContent, AboutUsContentInput } from '@/ai/flows/fitness-about-us-page';
 
 export default function AboutPage() {
   const [content, setContent] = useState<any>(null);

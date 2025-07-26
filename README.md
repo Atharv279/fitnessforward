@@ -1,20 +1,23 @@
-# FinanceForward: Your Comprehensive fitness Toolkit
+# FitnessForward: Your Personalized Fitness Toolkit
 
-Welcome to FinanceForward, a modern web application designed to empower users with clear, intuitive, and powerful fitness planning tools. Built with Next.js, React, and Genkit, FinanceForward bridges the gap between traditional fitness calculations and the dynamic world of cryptocurrency.
+Welcome to **FitnessForward**, a modern web application built to empower users with simple, interactive, and AI-assisted tools for personal health and fitness. Developed using Next.js, React, and Tailwind CSS, our goal is to provide you with powerful calculators and planners tailored for your body, routines, and lifestyle.
 
-## Core Features
+## 🌟 Core Features
 
-- **bmi Calculator**: Estimate bmi installments, total interest, and view a detailed amortization schedule.
-- **training Calculator**: Project the future value of investments using compound interest calculations.
-- **calorie Planner**: Plan for the future by estimating calorie nutrition and required contributions.
-- **AI-Powered fitness Tracker**: Get potential future value projections for various cryptocurrencies, using a Genkit AI flow that leverages live data from the Gemini API with a mock data fallback.
-- **Informational Pages**: A detailed "About Us" page explaining our mission and how the tools work, a "Contact" page, and legal disclaimers.
+- **BMI Calculator**: Instantly calculate your Body Mass Index and understand your weight classification and health risks.
+- **Workout Planner**: Design customized workout routines based on your fitness goals and activity level.
+- **Calorie Planner**: Estimate your daily caloric needs based on activity, age, and health goals.
+- **Fitness Tracker**: Log daily activities, track calorie burn, and monitor your fitness progress.
+- **AI-Based Tools**: Coming soon – get fitness suggestions powered by smart AI routines and health data.
 
-## Tech Stack
+## 📄 Informational Pages
 
-- **Framework**: [Next.js](https://nextjs.org/) (with App Router)
-- **UI**: [React](https://react.dev/), [ShadCN UI](https://ui.shadcn.com/), [Tailwind CSS](https://tailwindcss.com/)
-- **AI/Generative**: [Firebase Genkit](https://firebase.google.com/docs/genkit) with the Gemini LLM
-- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **About Us**: Learn about our mission and the science behind our tools.
+- **Contact Page**: Reach out with questions, suggestions, or feedback.
+- **Privacy Policy**: Read how we handle your data responsibly.
 
-This project serves as an excellent example of a modern, full-stack application with integrated AI capabilities, built for performance, usability, and providing real-world value.
+---
+
+### Get Started
+
+Make the most of your health journey with FitnessForward today.

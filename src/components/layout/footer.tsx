@@ -20,6 +20,9 @@ export function Footer() {
           <Link href="/contact" className="hover:text-primary transition-colors">
             Contact Us
           </Link>
+          <Link href="/legal/privacy-policy" className="hover:text-primary transition-colors">
+            Privacy Policy
+          </Link>
           <Link href="https://www.linkedin.com/in/atharv-patil-bab53a284" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:text-primary transition-colors">
             <Linkedin className="h-4 w-4" />
             LinkedIn
